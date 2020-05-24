@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            app:srcCompat="@drawable/usuario1" />
+
+        <LinearLayout
+            android:layout_width="172dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Alert Family"
+                android:textAlignment="center"
+                android:textColor="#070707"
+                android:textSize="30sp"
+                android:paddingTop="10sp"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/menu"
+            android:background="#00000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MAPA CENTRO DE ATENCIÓN INMEDIATA CAI"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#3E9FEC"
+            android:padding="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="20sp"
+        android:paddingLeft="20sp">
+
+        <LinearLayout
+            android:layout_width="92dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButtonMapa"
+                android:layout_width="203dp"
+                android:layout_height="200dp"
+                android:background="#00000000"
+                app:srcCompat="@drawable/camara" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="92dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:text="Seguridad Para Todos"
+            android:textAlignment="center"
+            android:textColor="#FB0202"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+</LinearLayout>

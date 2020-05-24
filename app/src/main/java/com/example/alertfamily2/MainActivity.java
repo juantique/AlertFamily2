@@ -2,21 +2,27 @@ package com.example.alertfamily2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.PopupMenu;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    // variable de boton de imagen del mapa de google:
+    private ImageButton btnMapa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //LOGICA DE TIPO BOTON DE INGRESO:
         Button btingresar = findViewById(R.id.btnIngresar);
-
         btingresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,5 +36,21 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Usuario incorrecto", Toast.LENGTH_SHORT).show();
             }
         });
+
+        // LOGICA DE TIPO IMAGENBUTTON, MAPA DE GOOGLE:
+        btnMapa = (ImageButton) findViewById(R.id.imageButtonMapa);
+        btnMapa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mapa = new Intent(getApplicationContext(),MapsActivityCai.class);
+                startActivity(mapa);
+            }
+        });
     }
+/* CREAR EL MENU POPUP:
+    public void showPopup(View v){
+        PopupMenu popup = new PopupMenu(this, v);
+        popup.setOnMenuItemClickListener();
+    }
+*/
 }
