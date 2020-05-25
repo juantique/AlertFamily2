@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     // variable de boton de imagen del mapa de google:
-    private ImageButton btnMapa;
+    //private ImageButton btnMapa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(registrar);
             }
         });
-
+/*
         // LOGICA DE TIPO IMAGENBUTTON, MAPA DE GOOGLE:
         btnMapa = (ImageButton) findViewById(R.id.imageButtonMapa);
         btnMapa.setOnClickListener(new View.OnClickListener() {
@@ -55,9 +55,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent mapa = new Intent(getApplicationContext(),MapsActivityCai.class);
                 startActivity(mapa);
             }
-        });
+        });*/
     }
-/* CREAR EL MENU POPUP:
+/*
+     CREAR EL MENU POPUP:
     public void showPopup(View v){
         PopupMenu popup = new PopupMenu(this, v);
         popup.setOnMenuItemClickListener();

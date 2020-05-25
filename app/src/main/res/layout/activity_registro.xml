@@ -318,9 +318,10 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/btnCancelar"
                     android:layout_width="192dp"
                     android:layout_height="wrap_content"
+                    android:textAllCaps="false"
                     android:text="Cancelar" />
             </LinearLayout>
 
@@ -330,10 +331,11 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btnGuardar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Registrar" />
+                    android:textAllCaps="false"
+                    android:text="Guardar" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
