@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="38dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/misterio"
+                android:background="#00000000"/>
+
+            <LinearLayout
+                android:layout_width="205dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Alert Family"
+                    android:textColor="#040404"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/menu"
+                android:background="#00000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12sp"
+                    android:paddingBottom="8sp"
+                    android:text="Nombre:"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#F60707"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12sp"
+                    android:paddingBottom="7sp"
+                    android:text="Apellido:"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textColor="#F60707"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12sp"
+                    android:paddingBottom="8sp"
+                    android:text="Cédula:"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textColor="#FB0606"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8sp"
+                    android:paddingBottom="8sp"
+                    android:text="Sexo:"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textColor="#F60707"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8sp"
+                    android:paddingBottom="8sp"
+                    android:text="Dirección:"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textColor="#F60707"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8sp"
+                    android:paddingBottom="8sp"
+                    android:text="Teléfono:"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textColor="#F60707"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Juan Guillermo"
+                    android:textSize="15dp"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Conde Tique"
+                    android:textSize="15dp"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="1013591248"
+                    android:textSize="15dp"
+                    android:padding="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="107dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4sp">
+
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="F" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="M" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/editText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Calle 57 B sur no 64 -40"
+                    android:textSize="15dp"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:id="@+id/editText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="7109511"
+                    android:textSize="15dp"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datos de Salud"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="15sp"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:layout_width="121dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15sp"
+                    android:paddingBottom="8sp"
+                    android:text="Grupo Sanguinio: "
+                    android:textColor="#F60707"/>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8sp"
+                    android:paddingBottom="8sp"
+                    android:text="Peso: "
+                    android:textColor="#F60707"/>
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8sp"
+                    android:paddingBottom="8sp"
+                    android:text="Estatura: "
+                    android:textColor="#F60707" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="121dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/editText20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:text="O+"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/editText7"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:inputType="textPersonName"
+                    android:text="59 Kg"
+                    android:padding="10dp"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/editText8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="1,70 m"
+                    android:padding="10dp"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="12sp"
+        android:paddingLeft="12sp">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afecciones Médicas"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="15sp"
+            android:padding="8dp"/>
+        <ScrollView
+            android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="70dip">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alergias"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="15sp" />
+
+        <ScrollView
+            android:id="@+id/ScrollView02"
+            android:layout_width="match_parent"
+            android:layout_height="70dip">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="196dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:text="MODIFICAR" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ACTUALIZAR" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

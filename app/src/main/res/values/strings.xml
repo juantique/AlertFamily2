@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">AlertFamily2</string>
     <string name="title_activity_maps_cai">Map</string>
+
+    <string name="txt_Titulo">AlertFamily</string>
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_Registrar">Si no estas registrado por favor dar clic aquí</string>
+    <string name="txt_Seguridad">Seguridad para Todos</string>
+    <string name="txt_Informacion">Ingresa el Usuario y la Contraseña</string>
+
 </resources>

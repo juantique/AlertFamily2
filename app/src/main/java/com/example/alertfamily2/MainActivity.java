@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //LOGICA DE TIPO BOTON DE INGRESO:
+        //Metodo boton de ingresar:
         Button btingresar = findViewById(R.id.btnIngresar);
         btingresar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +34,16 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                     Toast.makeText(getApplicationContext(), "Usuario incorrecto", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        //Metodo boton registrar:
+        Button btnregistrar = findViewById(R.id.btnRegistrar);
+        btnregistrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent registrar = new Intent(getApplicationContext(),MainActivityRegistrar.class);
+                startActivity(registrar);
             }
         });
 
