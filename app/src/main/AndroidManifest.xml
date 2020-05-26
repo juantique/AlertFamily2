@@ -33,8 +33,7 @@
             android:name=".MapsActivityCai"
             android:label="@string/title_activity_maps_cai"></activity>
 
-        <activity android:name=".MainActivityRegistrar"
-            android:label="@string/title_activity_maps_cai"></activity>
+        <activity android:name=".MainActivityRegistrar"></activity>
 
         <activity android:name=".MainActivity">
             <intent-filter>

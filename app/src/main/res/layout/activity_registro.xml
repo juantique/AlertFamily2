@@ -4,31 +4,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20sp"
+            android:paddingBottom="8sp"
+            android:text="Alert Family"
+            android:textColor="#040404"
+            android:textSize="20sp" />
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:paddingTop="20sp"
-                    android:paddingBottom="8sp"
-                    android:text="Alert Family"
-                    android:textColor="#040404"
-                    android:textSize="20sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -120,7 +125,7 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="Name"
+                            android:hint="Nombre"
                             android:textSize="12sp" />
 
                         <EditText
@@ -129,7 +134,7 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="Name"
+                            android:hint="Apellido"
                             android:textSize="12sp" />
 
                         <EditText
@@ -138,29 +143,33 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="Name"
+                            android:hint="No. Identificación"
                             android:textSize="12sp" />
 
-                        <LinearLayout
-                            android:layout_width="107dp"
+                        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:id="@+id/opciones_sexo"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="horizontal"
-                            android:paddingBottom="4sp">
+                            android:gravity="center"
+                            android:orientation="horizontal">
 
                             <RadioButton
-                                android:id="@+id/radioButton"
+                                android:id="@+id/radio_masculino"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="F" />
+                                android:layout_marginRight="16dp"
+                                android:checked="false"
+                                android:textSize="12sp"
+                                android:text="Masculino" />
 
                             <RadioButton
-                                android:id="@+id/radioButton2"
+                                android:id="@+id/radio_femenino"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="M" />
-                        </LinearLayout>
+                                android:checked="false"
+                                android:textSize="12sp"
+                                android:text="Femenino" />
+                        </RadioGroup>
 
                         <EditText
                             android:id="@+id/editText5"
@@ -168,7 +177,7 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="Name"
+                            android:hint="Dirección"
                             android:textSize="12sp" />
 
                         <EditText
@@ -177,10 +186,9 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="Name"
+                            android:hint="Teléfono"
                             android:textSize="12sp" />
                     </LinearLayout>
-
                 </LinearLayout>
             </LinearLayout>
 
@@ -218,7 +226,7 @@
                             android:paddingTop="15sp"
                             android:paddingBottom="8sp"
                             android:text="Grupo Sanguinio: "
-                            android:textColor="#F60707" />
+                            android:textColor="#F60707"/>
 
                         <TextView
                             android:id="@+id/textView14"
@@ -227,7 +235,7 @@
                             android:paddingTop="8sp"
                             android:paddingBottom="8sp"
                             android:text="Peso: "
-                            android:textColor="#F60707" />
+                            android:textColor="#F60707"/>
 
                         <TextView
                             android:id="@+id/textView17"
@@ -236,7 +244,7 @@
                             android:paddingTop="8sp"
                             android:paddingBottom="8sp"
                             android:text="Estatura: "
-                            android:textColor="#F60707" />
+                            android:textColor="#F60707"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -244,9 +252,16 @@
                         android:layout_height="121dp"
                         android:orientation="vertical">
 
+                        <Spinner
+                            android:id="@+id/spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <!--
                         <ListView
                             android:layout_width="match_parent"
-                            android:layout_height="42dp" />
+                            android:layout_height="42dp" >
+                        </ListView>-->
 
                         <EditText
                             android:id="@+id/editText7"
@@ -254,7 +269,7 @@
                             android:layout_height="37dp"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="Name"
+                            android:hint="Peso en Kg. (50)"
                             android:textSize="12sp" />
 
                         <EditText
@@ -263,11 +278,9 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="Name"
+                            android:hint="Estatura en metros (150)"
                             android:textSize="12sp" />
-
                     </LinearLayout>
-
                 </LinearLayout>
             </LinearLayout>
 
@@ -275,8 +288,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingLeft="12sp"
-                android:paddingRight="12sp">
+                android:paddingRight="12sp"
+                android:paddingLeft="12sp">
 
                 <TextView
                     android:id="@+id/textView18"
@@ -287,15 +300,15 @@
                     android:textColor="#070707"
                     android:textSize="15sp" />
 
-                <ScrollView
-                    android:id="@+id/ScrollView01"
+                <EditText
+                    android:id="@+id/txtAfeccionesMedicas"
                     android:layout_width="match_parent"
-                    android:layout_height="70dip">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-                </ScrollView>
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:textSize="12sp"
+                    android:gravity="start|top"
+                    android:hint="Realice una breve descripción si padece una afección médica"
+                    android:inputType="textMultiLine" />
 
                 <TextView
                     android:id="@+id/textView19"
@@ -306,15 +319,15 @@
                     android:textColor="#090909"
                     android:textSize="15sp" />
 
-                <ScrollView
-                    android:id="@+id/ScrollView02"
+                <EditText
+                    android:id="@+id/txtAlergias"
                     android:layout_width="match_parent"
-                    android:layout_height="70dip">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-                </ScrollView>
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:textSize="12sp"
+                    android:gravity="start|top"
+                    android:hint="Realice una breve descripción si padece una alergia"
+                    android:inputType="textMultiLine" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -332,10 +345,10 @@
                             android:id="@+id/btnCancelar"
                             android:layout_width="192dp"
                             android:layout_height="wrap_content"
-                            android:text="Cancelar"
-                            android:textAllCaps="false" />
-                    </LinearLayout>
+                            android:textAllCaps="false"
+                            android:text="Cancelar" />
 
+                    </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -345,8 +358,8 @@
                             android:id="@+id/btnGuardar"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Guardar"
-                            android:textAllCaps="false" />
+                            android:textAllCaps="false"
+                            android:text="Guardar" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
