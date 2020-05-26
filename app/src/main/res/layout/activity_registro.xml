@@ -4,340 +4,353 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingTop="20sp"
-            android:paddingBottom="8sp"
-            android:text="Alert Family"
-            android:textColor="#040404"
-            android:textSize="20sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp">
-
-            <LinearLayout
-                android:layout_width="117dp"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="12sp"
-                    android:paddingBottom="8sp"
-                    android:text="Nombre:"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                    android:textColor="#F60707"
-                    android:textSize="15sp" />
-
-                <TextView
-                    android:id="@+id/textView12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="12sp"
-                    android:paddingBottom="7sp"
-                    android:text="Apellido:"
-                    android:textAppearance="@android:style/TextAppearance.Material.Small"
-                    android:textColor="#F60707"
-                    android:textSize="15sp" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="12sp"
-                    android:paddingBottom="8sp"
-                    android:text="Cédula:"
-                    android:textAppearance="@android:style/TextAppearance.Material.Small"
-                    android:textColor="#FB0606"
-                    android:textSize="15sp" />
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="8sp"
-                    android:paddingBottom="8sp"
-                    android:text="Sexo:"
-                    android:textAppearance="@android:style/TextAppearance.Material.Small"
-                    android:textColor="#F60707"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="8sp"
-                    android:paddingBottom="8sp"
-                    android:text="Dirección:"
-                    android:textAppearance="@android:style/TextAppearance.Material.Small"
-                    android:textColor="#F60707"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="8sp"
-                    android:paddingBottom="8sp"
-                    android:text="Teléfono:"
-                    android:textAppearance="@android:style/TextAppearance.Material.Small"
-                    android:textColor="#F60707"
-                    android:textSize="14sp" />
-            </LinearLayout>
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <EditText
-                    android:id="@+id/editText3"
+                <TextView
+                    android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name"
-                    android:textSize="12sp" />
-
-                <EditText
-                    android:id="@+id/editText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name"
-                    android:textSize="12sp" />
-
-                <EditText
-                    android:id="@+id/editText2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name"
-                    android:textSize="12sp" />
+                    android:gravity="center"
+                    android:paddingTop="20sp"
+                    android:paddingBottom="8sp"
+                    android:text="Alert Family"
+                    android:textColor="#040404"
+                    android:textSize="20sp" />
 
                 <LinearLayout
-                    android:layout_width="107dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                    <LinearLayout
+                        android:layout_width="117dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="12sp"
+                            android:paddingBottom="8sp"
+                            android:text="Nombre:"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="#F60707"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="12sp"
+                            android:paddingBottom="7sp"
+                            android:text="Apellido:"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            android:textColor="#F60707"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="12sp"
+                            android:paddingBottom="8sp"
+                            android:text="Cédula:"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            android:textColor="#FB0606"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8sp"
+                            android:paddingBottom="8sp"
+                            android:text="Sexo:"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            android:textColor="#F60707"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8sp"
+                            android:paddingBottom="8sp"
+                            android:text="Dirección:"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            android:textColor="#F60707"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8sp"
+                            android:paddingBottom="8sp"
+                            android:text="Teléfono:"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            android:textColor="#F60707"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/editText3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/editText2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="107dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:paddingBottom="4sp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="F" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="M" />
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/editText5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/editText6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20sp">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Datos de Salud"
+                    android:textAlignment="center"
+                    android:textColor="#070707"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
-                    android:paddingBottom="4sp">
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
 
-                    <RadioButton
-                        android:id="@+id/radioButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="F" />
+                    <LinearLayout
+                        android:layout_width="121dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
-                    <RadioButton
-                        android:id="@+id/radioButton2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="M" />
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="15sp"
+                            android:paddingBottom="8sp"
+                            android:text="Grupo Sanguinio: "
+                            android:textColor="#F60707" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8sp"
+                            android:paddingBottom="8sp"
+                            android:text="Peso: "
+                            android:textColor="#F60707" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8sp"
+                            android:paddingBottom="8sp"
+                            android:text="Estatura: "
+                            android:textColor="#F60707" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="121dp"
+                        android:orientation="vertical">
+
+                        <ListView
+                            android:layout_width="match_parent"
+                            android:layout_height="42dp" />
+
+                        <EditText
+                            android:id="@+id/editText7"
+                            android:layout_width="match_parent"
+                            android:layout_height="37dp"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/editText8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text="Name"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
                 </LinearLayout>
-
-                <EditText
-                    android:id="@+id/editText5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name"
-                    android:textSize="12sp" />
-
-                <EditText
-                    android:id="@+id/editText6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name"
-                    android:textSize="12sp" />
             </LinearLayout>
 
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="20sp">
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Datos de Salud"
-            android:textAlignment="center"
-            android:textColor="#070707"
-            android:textSize="15sp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp">
-
             <LinearLayout
-                android:layout_width="121dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="12sp"
+                android:paddingRight="12sp">
 
                 <TextView
-                    android:id="@+id/textView16"
+                    android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="15sp"
-                    android:paddingBottom="8sp"
-                    android:text="Grupo Sanguinio: "
-                    android:textColor="#F60707"/>
+                    android:text="Afecciones Médicas"
+                    android:textAlignment="center"
+                    android:textColor="#070707"
+                    android:textSize="15sp" />
+
+                <ScrollView
+                    android:id="@+id/ScrollView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dip">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </ScrollView>
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="8sp"
-                    android:paddingBottom="8sp"
-                    android:text="Peso: "
-                    android:textColor="#F60707"/>
+                    android:text="Alergias"
+                    android:textAlignment="center"
+                    android:textColor="#090909"
+                    android:textSize="15sp" />
 
-                <TextView
-                    android:id="@+id/textView17"
+                <ScrollView
+                    android:id="@+id/ScrollView02"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="8sp"
-                    android:paddingBottom="8sp"
-                    android:text="Estatura: "
-                    android:textColor="#F60707"/>
-            </LinearLayout>
+                    android:layout_height="70dip">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="121dp"
-                android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </ScrollView>
 
-                <ListView
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="42dp" />
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="20sp"
+                    android:paddingBottom="10sp">
 
-                <EditText
-                    android:id="@+id/editText7"
-                    android:layout_width="match_parent"
-                    android:layout_height="37dp"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name"
-                    android:textSize="12sp" />
+                    <LinearLayout
+                        android:layout_width="196dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
-                <EditText
-                    android:id="@+id/editText8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name"
-                    android:textSize="12sp" />
+                        <Button
+                            android:id="@+id/btnCancelar"
+                            android:layout_width="192dp"
+                            android:layout_height="wrap_content"
+                            android:text="Cancelar"
+                            android:textAllCaps="false" />
+                    </LinearLayout>
 
-            </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingRight="12sp"
-        android:paddingLeft="12sp">
-
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Afecciones Médicas"
-            android:textAlignment="center"
-            android:textColor="#070707"
-            android:textSize="15sp" />
-        <ScrollView
-            android:id="@+id/ScrollView01"
-            android:layout_width="match_parent"
-            android:layout_height="70dip">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-        </ScrollView>
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Alergias"
-            android:textAlignment="center"
-            android:textColor="#090909"
-            android:textSize="15sp" />
-
-        <ScrollView
-            android:id="@+id/ScrollView02"
-            android:layout_width="match_parent"
-            android:layout_height="70dip">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-        </ScrollView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:paddingTop="20sp"
-            android:paddingBottom="10sp">
-
-            <LinearLayout
-                android:layout_width="196dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/btnCancelar"
-                    android:layout_width="192dp"
-                    android:layout_height="wrap_content"
-                    android:textAllCaps="false"
-                    android:text="Cancelar" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/btnGuardar"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textAllCaps="false"
-                    android:text="Guardar" />
+                        <Button
+                            android:id="@+id/btnGuardar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Guardar"
+                            android:textAllCaps="false" />
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
