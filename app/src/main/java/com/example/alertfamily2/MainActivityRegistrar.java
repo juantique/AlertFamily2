@@ -19,8 +19,7 @@ public class MainActivityRegistrar extends AppCompatActivity {
         btncancelar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent cancelar = new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(cancelar);
+                finish();
             }
         });
 
