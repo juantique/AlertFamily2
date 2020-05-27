@@ -24,6 +24,13 @@ public class MainActivityRegistrar extends AppCompatActivity {
         });
 
         //Metodo de Guardar:
-
+        Button btnguardar = findViewById(R.id.btnGuardar);
+        btnguardar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent guardar = new Intent(getApplicationContext(),MainActivityPanic.class);
+                startActivity(guardar);
+            }
+        });
     }
 }
