@@ -57,11 +57,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });*/
     }
-/*
-     CREAR EL MENU POPUP:
-    public void showPopup(View v){
-        PopupMenu popup = new PopupMenu(this, v);
-        popup.setOnMenuItemClickListener();
-    }
-*/
 }

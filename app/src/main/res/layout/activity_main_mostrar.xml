@@ -356,7 +356,7 @@
                         android:orientation="vertical">
 
                         <Button
-                            android:id="@+id/btnCancelar"
+                            android:id="@+id/btnEditar"
                             android:layout_width="192dp"
                             android:layout_height="wrap_content"
                             android:textAllCaps="false"
