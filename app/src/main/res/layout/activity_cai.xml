@@ -37,12 +37,13 @@
         </LinearLayout>
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/ImgBtnMenuCai"
             android:layout_width="69dp"
             android:layout_height="69dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/menu"
-            android:background="#00000000"/>
+            android:background="#00000000"
+            android:onClick="showPopupmap"/>
 
     </LinearLayout>
 
@@ -82,7 +83,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButtonMapa"
+                android:id="@+id/ImageButtonMapa"
                 android:layout_width="203dp"
                 android:layout_height="200dp"
                 android:background="#00000000"
