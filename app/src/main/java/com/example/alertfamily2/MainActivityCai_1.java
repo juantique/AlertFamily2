@@ -19,7 +19,7 @@ public class MainActivityCai_1 extends AppCompatActivity {
         btnmenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent menu = new Intent(getApplicationContext(),MainActivityMostrar.class);
+                Intent menu = new Intent(getApplicationContext(),MapsActivityCai.class);
                 startActivity(menu);
             }
         });

@@ -37,6 +37,7 @@
         <activity android:name=".MainActivityRegistrar" />
         <activity android:name=".MainActivityPanic" />
         <activity android:name=".MainActivityEditar" />
+        <activity android:name=".MainActivityCai_1" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
