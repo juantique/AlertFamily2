@@ -12,7 +12,7 @@ public class MainActivityCai_1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_panic);
+        setContentView(R.layout.activity_cai);
 
         //Boton Usuario Mapa:
         ImageButton btnmenu = findViewById(R.id.imageButtonMapa);
